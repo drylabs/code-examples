@@ -1,0 +1,23 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore Terraform variable override files
+*.override.tf
+*.override.tf.json
+
+# Ignore Terraform crash log files
+crash.log
+
+# Ignore Terraform provider plugins
+.terraform/
+
+# Ignore sensitive files 
+#*.tfvars
+#*.tfvars.json
+
+# Ignore TF generated plans
+tfplan
